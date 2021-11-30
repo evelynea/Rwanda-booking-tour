@@ -1,0 +1,77 @@
+.home-container{
+    background-color: rgb(173, 179, 173);
+    height: 110vh;
+    width: 100%;
+}
+.home-container h4{
+    margin-left: 40%;
+}
+.home-bg{
+    margin-left:200px;
+    font-size:35px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.home-bg h2{
+    color: white;
+}
+.quote-div{
+    width:30%;
+    height: 50vh;
+    background-color: rgb(173, 190, 165);
+    /* float: right; */
+    margin-left: 20px;
+    margin: 20px;
+    box-shadow:10px black;
+    text-align: center;
+}
+.quote-div h1{
+    margin: 10px;
+    color: green;
+}
+.quote-div p{
+    padding: 15px;
+}
+
+.search{
+    /* background-color: black; */
+    width: 50%;
+    font-size: 17px;
+    /* display: flex; */
+    margin-top: 40PX;
+    
+}
+.search input{
+    height: 8vh;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.search button{
+  height: 8vh;
+  width: 20%;
+  margin-left: 10px;
+  
+  margin-top: 20px;
+  border-radius: 30px;
+  color: green;
+}
+.quote-div button{
+    height: 8vh;
+    width: 25%;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 30px;
+    color: green;
+
+}
+.middle{
+    display: flex;
+    margin-left: 20PX;
+}
+.children{
+    height: auto;
+    margin-bottom: 200px;
+}
+

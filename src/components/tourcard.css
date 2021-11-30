@@ -1,0 +1,62 @@
+.tourcard-container{
+    background-color: rgb(173, 190, 165);
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    height: 50vh;
+    width: 50%;
+    display: flex;
+   overflow: hidden;
+   border: 1px solid black;
+}
+.tour-description{
+    text-align: center;
+    font: 10px;
+}
+/* .date-title{
+    display: flex;
+}
+.tour-date{
+    display: flex;
+} */
+/* .dates{
+    display: flex;
+} */
+.date-diplay{
+    display: flex;
+}
+.dates{
+    margin-left: 10px;
+}
+.singletours-container{
+    text-align: center;
+
+}
+.singletours-container button{
+    height: 8vh;
+  width: 20%;
+  margin-left: 10px;
+  
+  margin-top: 20px;
+  border-radius: 30px;
+  color: green;
+
+}
+
+
+.singletours-container img{
+    height: 70vh;
+    width: 80%;
+    /* float: left; */
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.gallery img{
+    height: 45vh;
+    width: 50%;
+    padding: 10px;
+
+}
