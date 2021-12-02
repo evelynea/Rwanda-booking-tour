@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import "./dashstyle.css"
+import { Link } from "react-router-dom";
 import { Layout, Menu } from 'antd';
 import {
   MenuUnfoldOutlined,
@@ -27,13 +28,14 @@ const Dashlayout = ({ children }) => {
           <div className="logo" />
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1" icon={<UserOutlined />}>
-              nav 1
+              <Link to ="../dashboard/newtour"> Create Tour</Link>
             </Menu.Item>
             <Menu.Item key="2" icon={<VideoCameraOutlined />}>
-              nav 2
+              
+            <Link to ="../dashboard/alltours"> Manage All Tours</Link>
             </Menu.Item>
             <Menu.Item key="3" icon={<UploadOutlined />}>
-              nav 3
+              <Link to ="../home">Logout</Link>
             </Menu.Item>
           </Menu>
         </Sider>
@@ -52,6 +54,7 @@ const Dashlayout = ({ children }) => {
               minHeight: 280,
             }}
           >
+            
             {children}
           </Content>
         </Layout>

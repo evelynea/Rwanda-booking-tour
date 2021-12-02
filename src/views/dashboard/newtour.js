@@ -8,7 +8,7 @@ const Newtour = () => {
         console.log(values);
     }
     return (
-        <Dashlayout>
+        // <Dashlayout>
             <Form onFinish={OnFinish}>
 
                 <Form.Item name="title" label="Title" rules={[{ required: true }]}>
@@ -32,14 +32,20 @@ const Newtour = () => {
                         <Button icon={<UploadOutlined />}>Click to Upload</Button>
                     </Upload>
                 </Form.Item>
+                <Space>
                 <Form.Item label="price ($)">
                     <InputNumber />
                 </Form.Item>
+                <Form.Item label="seats">
+                    <InputNumber />
+                </Form.Item>
+                </Space>
+                <br></br>
                 <Button htmlType="submit" type="primary">
                     Register Now
                 </Button>
             </Form>
-        </Dashlayout>
+        //  </Dashlayout>
     )
 }
 export default Newtour;

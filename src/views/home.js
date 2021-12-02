@@ -4,8 +4,9 @@ import "../components/Header.css"
 // import Header from "../components/Header";
 // import Footer from "../components/footer";
 import HomeLayout from "../components/homelayout";
+import ReactDOM from 'react-dom'
 
-import Aboutus from "./aboutus";
+   
 const Home = () => {
 
     return (

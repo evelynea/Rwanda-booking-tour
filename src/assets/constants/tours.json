@@ -26,7 +26,9 @@
       "images": ["https://images.pexels.com/photos/2776479/pexels-photo-2776479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/2217365/pexels-photo-2217365.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/2749481/pexels-photo-2749481.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"],
       "dateScheduled": "20 August 2010",
       "dueDate": "30 August 2010",
-      "phone": "+250 788 788 788"
+      "phone": "+250 788 788 788",
+      "price":200
+
     },
     {
       "title": " Gako Forest",
@@ -36,7 +38,9 @@
       "images": ["https://images.pexels.com/photos/1112186/pexels-photo-1112186.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", "https://images.pexels.com/photos/10304603/pexels-photo-10304603.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/3693789/pexels-photo-3693789.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/730062/pexels-photo-730062.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"],
       "dateScheduled": "2 September 2010",
       "dueDate": "5 September 2010",
-      "phone": "+250 788 788 788"
+      "phone": "+250 788 788 788",
+      "price":300
+
     },
     {
       "title": " Akagera National Park",
@@ -46,6 +50,8 @@
       "images": ["https://images.pexels.com/photos/1567058/pexels-photo-1567058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", "https://images.pexels.com/photos/34098/south-africa-hluhluwe-giraffes-pattern.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/4577836/pexels-photo-4577836.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"],
       "dateScheduled": "10 August 2010",
       "dueDate": "15 August 2010",
-      "phone": "+250 788 788 788"
+      "phone": "+250 788 788 788",
+      "price":400
+
     }
   ]

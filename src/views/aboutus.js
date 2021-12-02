@@ -6,7 +6,7 @@ import "../components/Header.css"
 import HomeLayout from "../components/homelayout";
 import "./aboutus.css"
 import tourist1 from '../assets/tourist1.jpg';
-import tourist3 from '../assets/tourist3.jpg'
+
 const Aboutus = () => {
        return (
               <div className="aboutus">
