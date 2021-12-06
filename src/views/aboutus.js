@@ -1,8 +1,5 @@
 import React from "react"
-// import "./home.css"
 import "../components/Header.css"
-// import Header from "../components/Header";
-// import Footer from "../components/footer";
 import HomeLayout from "../components/homelayout";
 import "./aboutus.css"
 import tourist1 from '../assets/tourist1.jpg';
