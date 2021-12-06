@@ -1,8 +1,7 @@
 import React from "react"
 import "./home.css"
 import "../components/Header.css"
-// import Header from "../components/Header";
-// import Footer from "../components/footer";
+
 import HomeLayout from "../components/homelayout";
 import {SearchOutlined } from "@ant-design/icons"
 
