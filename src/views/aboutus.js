@@ -9,7 +9,7 @@ import tourist1 from '../assets/tourist1.jpg';
 
 const Aboutus = () => {
        return (
-              <div className="aboutus">
+              
                      <HomeLayout>
                             <div className="about-container">
                                    <div className="description">
@@ -23,7 +23,7 @@ const Aboutus = () => {
                                           <p>we help you reach most places in very few days <br></br></p>
                                           <br></br>
 
-                                          <h1>our vision</h1>
+                                          <h1>Our vision</h1>
                                           <p> reach world wide</p>
                 
                                           <button type="submit"> <a href="/tours" style={{color:"green"}}>Explore</a></button>
@@ -34,9 +34,9 @@ const Aboutus = () => {
 
                                    </div>
                                    <div className="reviews">
-                                          <h1> reviews</h1>
+                                          <h1 style={{color:"green"}}> Reviews</h1>
                                           <h4>Yvette:</h4>
-                                          <p>i so loved that these people were on time</p>
+                                          <p>I so loved that these people were on time</p>
                                           <br></br>
                                           <h4> Arsene:</h4>
                                           <p>I appreciate that we had a preview of the events before it started. proves that you are proffesional</p>
@@ -44,7 +44,7 @@ const Aboutus = () => {
                                    </div>
                             </div>
                      </HomeLayout>
-              </div>
+       
        )
 }
 export default Aboutus;

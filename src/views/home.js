@@ -4,7 +4,7 @@ import "../components/Header.css"
 // import Header from "../components/Header";
 // import Footer from "../components/footer";
 import HomeLayout from "../components/homelayout";
-import ReactDOM from 'react-dom'
+import {SearchOutlined } from "@ant-design/icons"
 
    
 const Home = () => {
@@ -19,8 +19,8 @@ const Home = () => {
                 </div>
                 <div className="middle">
                     <div className="search">
-                        <input type="text" name="search" />
-                        <button type="submit"> SEARCH</button>
+                        <input type="text" name="search" placeholder="search for your favorites here"/>
+                        
                     </div>
                     <div className="quote-div">
                         <h1> Book with us.</h1>

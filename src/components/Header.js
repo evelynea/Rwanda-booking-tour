@@ -7,6 +7,7 @@ import Toursview from "../views/tours";
 import { Modal, Form, Input, Button } from "antd";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react/cjs/react.development";
+import CreateAccount from "../views/createaccount";
 
 
 const Header = () => {
@@ -50,35 +51,14 @@ const Header = () => {
                     </Button>
                     <p> Don't have an account?</p>
                     
-                    <a href="#" onClick={() => setVisible(true)}>CREATE ACCOUNT</a>
+                    <a href="/createaccount">CREATE ACCOUNT</a>
                 </Form>
                 </Modal>
-                {/* <Modal 
-                 visible={modalvisible}
-                 width="40%"
-                 onOk={() => setModalVisible(false)}
-                 onCancel={() => setModalVisible(false)}
-                >
-                <Form onFinish={onFinish}>
-                <Form.Item
-                        label="First Name"
-                        name="firstName"
-                        rules={[{ required: true, type: "name" }]}
-                    >
-                        <Input/>
-                    </Form.Item>
-                    <Button htmlType="submit" onClick={()=>{ localStorage.setItem("usercreated",true); navigate("/dash/newtour")}}>
-                        {""}
-                        CREATE{""}
-                    </Button>
-                </Form>
-                    
-
-                </Modal> */}
+                
                 <div className="header">
 
                     <div className="logo">
-                        <img src={logo} />
+                        <img src={logo}/>
                     </div>
                     <div className="navbar">
                         <a href="/home">HOME</a>

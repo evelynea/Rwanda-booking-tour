@@ -9,6 +9,7 @@ import Dashlayout from "../components/dashboardlayout"
 import { Routes, Route, useLocation } from "react-router-dom";
 import Alltours from "../views/dashboard/alltours";
 import Header from "../components/Header";
+import CreateAccount from "../views/createaccount";
 
 const isUserLogedIn= localStorage.getItem("userlogin");
 const Index = () => {
@@ -23,6 +24,7 @@ const Index = () => {
             <Route element={<Contact/>} path="/contact"></Route>   
             <Route element={<Toursview/>} path="/tours"></Route>
             <Route element={<Singletour/>} path="/singletour"></Route> 
+            <Route element={<CreateAccount/>} path="/createaccount"></Route> 
             
             
                      
